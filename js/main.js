@@ -1,25 +1,11 @@
 $(document).ready(function(){
     $('.slider').slick({
-        centerMode: true,
-        adaptiveHeight: true,
-        centerPadding: '0',
-        Infinity: true,
-        responcive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    slidesToShow: 1
-                }
-            }
-        ]
+      autoplay: false,
+      autoplaySpeed: 5000,
+      dots: false,
+      arrows: true,
+      centerMode: true,
+      centerPadding: '0',
+      slidesToShow: 1
     });
-});
+  });
